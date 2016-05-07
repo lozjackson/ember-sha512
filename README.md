@@ -1,38 +1,25 @@
 # Ember-sha512
 
+The is an Ember-cli addon version of Paul Johnston's sha512.js
+
+http://pajhome.org.uk/crypt/md5/sha512.html
+
 ## Basic Usage
+
+```
+import sha512 from 'ember-sha512/utils/sha512';
+
+let hex = sha512.hex_sha512('abc');
+```
+
+or..
 
 ```
 import { hex_sha512 } from 'ember-sha512/utils/sha512';
 
-
-export default Ember.Controller.extend({
-
-  hex: computed(function () {
-    return hex_sha512('abc');
-  })
-});
+let hex = hex_sha512('abc');
 ```
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+* `npm install ember-sha512 --save-dev`
