@@ -10,14 +10,18 @@ http://pajhome.org.uk/crypt/md5/sha512.html
 import sha512 from 'ember-sha512/utils/sha512';
 
 let hex = sha512.hex_sha512('abc');
+
+let b64 = sha512.b64_sha512('abc');
 ```
 
 or..
 
 ```
-import { hex_sha512 } from 'ember-sha512/utils/sha512';
+import { hex_sha512, b64_sha512 } from 'ember-sha512/utils/sha512';
 
 let hex = hex_sha512('abc');
+
+let b64 = b64_sha512('abc');
 ```
 
 ## Installation
