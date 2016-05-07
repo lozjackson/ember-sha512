@@ -1,7 +1,7 @@
 {
   "name": "ember-sha512",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.0.0",
+  "description": "Paul Johnston's sha512.js packaged in an Ember-cli addon",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/lozjackson/ember-sha512",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -40,7 +40,7 @@
     "loader.js": "^4.0.0"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon, sha512"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
