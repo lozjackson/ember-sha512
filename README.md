@@ -1,6 +1,18 @@
 # Ember-sha512
 
-This README outlines the details of collaborating on this Ember addon.
+## Basic Usage
+
+```
+import { hex_sha512 } from 'ember-sha512/utils/sha512';
+
+
+export default Ember.Controller.extend({
+
+  hex: computed(function () {
+    return hex_sha512('abc');
+  })
+});
+```
 
 ## Installation
 
