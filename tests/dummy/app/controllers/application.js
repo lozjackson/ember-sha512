@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import { hex_sha512, b64_sha512 } from 'ember-sha512/utils/sha512';
+import { hex_sha512, b64_sha512 } from 'ember-sha512';
 
 const computed = Ember.computed;
 
